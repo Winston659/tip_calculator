@@ -1,0 +1,57 @@
+html {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(45deg, #d9f2e6, #cce0ff);
+}
+
+#calculator {
+  margin: 10vh 10vw 10vh 10vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: white;
+}
+
+h1 {
+  padding-top: 7vh;
+  margin-bottom: 2%;
+  font-size: 8vh;
+  text-align: center;
+}
+
+label {
+  padding-top: 2%;
+  margin: 0 8% 0 8%;
+  font-size: 3vh;
+  text-align: center;
+}
+
+p {
+  padding: 5px;
+}
+
+.inputs {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2%;
+}
+
+input {
+  width: 90%;
+  height: 4vh;
+}
+
+button {
+  padding: 2%;
+  background: linear-gradient(45deg, #d9f2e6, #cce0ff);
+  border: none;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 2%;
+}
