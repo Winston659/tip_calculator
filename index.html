@@ -1,0 +1,30 @@
+<link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap" rel="stylesheet" />
+
+<body>
+  <div id='calculator'>
+    <h1>Tips Calculator</h1>
+    <label for='bill'>Enter your bill amount:</label>
+    <div class='inputs'>
+      <p>$</p><input id='bill' placeholder='Enter price here'></input>
+    </div>
+    <div class='inputs'>
+      <input id='tipPercent' list="service" placeholder='Enter tip percent here'>
+      <datalist id="service">
+        <option value="30">For amazing service</option>
+        <option value="20">For good service</option>
+        <option value="15">For average service</option>
+        <option value="10">For poor service</option>
+        <option value="5">For terrible service</option>
+      </datalist>
+      <p>%</p>
+    </div>
+    </input>
+    <label for='people'>How many people are sharing the bill?</label>
+    <div class='inputs'>
+      <input id='people' value=1 onChange='checkPeoplePerson()' required></input>
+      <p id='personPeople'>person</p>
+    </div>
+    <button id='calculate' onclick='calculateTip()'>Calculate</button>
+    <h3 id='tip-amount'></h3>
+  </div>
+</body>
